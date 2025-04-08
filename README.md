@@ -1,6 +1,3 @@
-Copyright © 2025 webdevpathiraja
-All rights reserved. This project is licensed under the MIT License.
-
 Real-Time Hand Tracking with MediaPipe 
 
 This project uses **MediaPipe** and **OpenCV** to track hands in real-time using a webcam. It detects hand landmarks and draws them on the frame, displaying the tracking in a live video window. The hand landmarks are displayed as red dots, and the connections between the landmarks are drawn with green lines.
