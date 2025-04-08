@@ -1,7 +1,7 @@
 Copyright © 2025 webdevpathiraja
 All rights reserved. This project is licensed under the MIT License.
 
-# 🫲🏼👌🏼Real-Time Hand Tracking with MediaPipe 🤚🏼👋🏼
+Real-Time Hand Tracking with MediaPipe 
 
 This project uses **MediaPipe** and **OpenCV** to track hands in real-time using a webcam. It detects hand landmarks and draws them on the frame, displaying the tracking in a live video window. The hand landmarks are displayed as red dots, and the connections between the landmarks are drawn with green lines.
 
@@ -29,11 +29,8 @@ pip install opencv-python mediapipe
 
 2. Install the necessary dependencies:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
 
-3. Run the script:
+ Run the script:
 
     ```bash
     python main.py
@@ -41,7 +38,7 @@ pip install opencv-python mediapipe
 
     This will open a webcam window showing the tracked hand landmarks. The landmarks will be drawn as red dots, and green lines will represent the connections between the landmarks.
 
-4. Press `q` to exit the program.
+ Press `q` to exit the program.
 
 ## How It Works 👷🏻‍♀️🪜
 
@@ -50,7 +47,7 @@ pip install opencv-python mediapipe
 - Once hands are detected, the landmarks and connections are drawn on the frame using OpenCV.
 - The frame is displayed in a window, and you can press `q` to exit the application.
 
-## Landmarks Information ⭕️❎
+## Landmarks Information 
 
 Each hand has 21 landmarks, numbered from 0 to 20. Here are the main landmarks:
 
@@ -61,4 +58,4 @@ Each hand has 21 landmarks, numbered from 0 to 20. Here are the main landmarks:
 - 13-16: Ring finger (base to tip)
 - 17-20: Little finger (base to tip)
 
-These landmarks are used to draw connections between each joint in the hand.
+
